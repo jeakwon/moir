@@ -1,0 +1,24 @@
+# Python 3.10. These are the package versions of the environment the paper runs used.
+# Install torch first from the CUDA 12.4 index:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# then:
+#   pip install -r requirements.txt
+#   python -m nltk.downloader punkt
+torch==2.6.0
+transformers==4.57.1
+tokenizers==0.22.1
+accelerate==1.12.0
+huggingface_hub==0.36.2
+safetensors==0.7.0
+numpy==2.2.6
+PyYAML==6.0
+tqdm==4.67.3
+datasets==4.7.0
+nltk==3.6.5            # fluency metric (src/evaluate.py)
+
+# preservation benchmarks
+lm_eval==0.4.11
+evaluate==0.4.6
+sacrebleu==2.6.0
+lxml==6.0.2
+human-eval==1.0.3      # HumanEval; see README: code execution must be enabled

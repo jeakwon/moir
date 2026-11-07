@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "edited_weights": null,
+  "results": {
+    "humaneval": {
+      "pass@1": 0.6219512195121951,
+      "n_problems": 164,
+      "n_samples": 1
+    },
+    "mbpp": {
+      "pass@1": 0.0,
+      "passed": 0,
+      "total": 257
+    }
+  },
+  "elapsed_seconds": 8355.402952432632
+}

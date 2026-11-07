@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MOIR: downloaded data, caches and run outputs
+data/
+logs/
+*.pt
+results/*/

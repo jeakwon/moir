@@ -1,0 +1,17 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "edited_weights": null,
+  "results": {
+    "humaneval": {
+      "pass@1": 0.6097560975609756,
+      "n_problems": 164,
+      "n_samples": 1
+    },
+    "mbpp": {
+      "pass@1": 0.0,
+      "passed": 0,
+      "total": 257
+    }
+  },
+  "elapsed_seconds": 6081.456088542938
+}
