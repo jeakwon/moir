@@ -60,6 +60,10 @@ bash scripts/download_data.sh
   .610 Llama-3.1, .622 Qwen3).
 - **Paths are relative.** Run every command from the repository root. The hparams files point
   to `./data/stats` for all cached corpora, covariances and projections.
+- **Offline runs.** With `HF_HUB_OFFLINE=1`, lm-eval only finds datasets that `datasets` has
+  already prepared in its cache; downloaded hub files alone are not enough. Load each task's
+  dataset once with network access, e.g.
+  `python -c "from datasets import load_dataset; load_dataset('allenai/ai2_arc', 'ARC-Challenge')"`.
 
 ## Running MOIR
 
